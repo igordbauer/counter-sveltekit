@@ -28,7 +28,7 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: "/${{ counter-sveltekit }}"
+          BASE_PATH: "/counter-sveltekit"
         run: |
           npm run build
 

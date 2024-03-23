@@ -10,11 +10,7 @@
   <button on:click={() => (count = count + 1)}>Inc</button>
   <p>{count}</p>
   <button on:click={() => (count = count - 1)}>Dec</button>
-</div>
-<div>
-  <button on:click={() => (count = count + 1)}>Inc</button>
-  <p>{count}</p>
-  <button on:click={() => (count = count - 1)}>Dec</button>
+  <button on:click={() => (count = count * 2)}>2x</button>
 </div>
 
 <style>
